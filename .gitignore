@@ -1,0 +1,5 @@
+# macOS
+.DS_Store
+
+# elixir
+.elixir_ls
