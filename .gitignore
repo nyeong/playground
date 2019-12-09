@@ -3,3 +3,12 @@
 
 # elixir
 .elixir_ls
+
+# rust
+target
+
+# cmake
+CMakeFiles
+
+# java
+.gradle
