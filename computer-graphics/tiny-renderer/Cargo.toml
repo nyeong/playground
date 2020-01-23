@@ -1,8 +1,0 @@
-[package]
-name = "tiny-renderer"
-version = "0.1.0"
-authors = ["An Nyeong <me@annyeong.me>"]
-edition = "2018"
-
-[dependencies]
-piston_window = "0.105"
