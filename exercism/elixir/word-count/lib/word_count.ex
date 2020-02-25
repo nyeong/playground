@@ -18,7 +18,8 @@ defmodule WordCount do
     end
 
     sentence
-      |> String.split(~r/[[:space:]!:,@#$%^&_]/, trim: true)
+      # u modifiers to enable Unicode!
+      |> String.split(~r/(?!-)[[:space:][:punct:]]/u, trim: true)
       |> Enum.reduce(%{}, reducer)
   end
 end
