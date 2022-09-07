@@ -1,0 +1,98 @@
+2022.08.12 15:40:30 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/nyeong/Playground/exercism/scala/hello-world/.metals/lsp.trace.json or /Users/nyeong/Library/Caches/org.scalameta.metals/lsp.trace.json[0m
+2022.08.12 15:40:31 INFO  logging to file /Users/nyeong/Playground/exercism/scala/hello-world/.metals/metals.log[0m
+2022.08.12 15:40:31 INFO  Started: Metals version 0.11.8 in workspace '/Users/nyeong/Playground/exercism/scala/hello-world' .[0m
+2022.08.12 15:40:31 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.08.12 15:40:31 INFO  time: initialize in 0.66s[0m
+2022.08.12 15:40:31 ERROR Unexpected error initializing serverjava.lang.IllegalStateException: Not a JSON Object: null
+	at com.google.gson.JsonElement.getAsJsonObject(JsonElement.java:91)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$syncUserconfiguration$6(MetalsLanguageServer.scala:2664)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2022.08.12 15:41:03 WARN  no build target for: /Users/nyeong/Playground/exercism/scala/hello-world/src/test/scala/HelloWorldTest.scala[0m
+2022.08.12 15:41:05 INFO  no build target found for /Users/nyeong/Playground/exercism/scala/hello-world/src/test/scala/HelloWorldTest.scala. Using presentation compiler with project's scala-library version: 3.1.3[0m
+2022.08.12 15:41:06 INFO  shutting down Metals[0m
+2022.08.12 15:41:14 INFO  Started: Metals version 0.11.8 in workspace '/Users/nyeong/Playground/exercism/scala/hello-world' .[0m
+2022.08.12 15:41:14 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.08.12 15:41:14 INFO  time: initialize in 0.58s[0m
+2022.08.12 15:41:14 ERROR Unexpected error initializing serverjava.lang.IllegalStateException: Not a JSON Object: null
+	at com.google.gson.JsonElement.getAsJsonObject(JsonElement.java:91)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$syncUserconfiguration$6(MetalsLanguageServer.scala:2664)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2022.08.12 15:41:18 WARN  no build target for: /Users/nyeong/Playground/exercism/scala/hello-world/src/test/scala/HelloWorldTest.scala[0m
+2022.08.12 15:41:20 INFO  no build target found for /Users/nyeong/Playground/exercism/scala/hello-world/src/test/scala/HelloWorldTest.scala. Using presentation compiler with project's scala-library version: 3.1.3[0m
+2022.08.12 15:41:40 INFO  shutting down Metals[0m
+2022.08.12 15:41:51 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/nyeong/Playground/exercism/scala/hello-world/.metals/lsp.trace.json or /Users/nyeong/Library/Caches/org.scalameta.metals/lsp.trace.json[0m
+2022.08.12 15:41:51 INFO  logging to file /Users/nyeong/Playground/exercism/scala/hello-world/.metals/metals.log[0m
+2022.08.12 15:41:51 INFO  Started: Metals version 0.11.8 in workspace '/Users/nyeong/Playground/exercism/scala/hello-world' .[0m
+2022.08.12 15:41:51 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.08.12 15:41:52 INFO  time: initialize in 0.6s[0m
+2022.08.12 15:41:51 ERROR Unexpected error initializing serverjava.lang.IllegalStateException: Not a JSON Object: null
+	at com.google.gson.JsonElement.getAsJsonObject(JsonElement.java:91)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$syncUserconfiguration$6(MetalsLanguageServer.scala:2664)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2022.08.12 15:41:53 INFO  shutting down Metals[0m
+2022.08.12 15:41:59 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/nyeong/Playground/exercism/scala/hello-world/.metals/lsp.trace.json or /Users/nyeong/Library/Caches/org.scalameta.metals/lsp.trace.json[0m
+2022.08.12 15:41:59 INFO  logging to file /Users/nyeong/Playground/exercism/scala/hello-world/.metals/metals.log[0m
+2022.08.12 15:41:59 INFO  Started: Metals version 0.11.8 in workspace '/Users/nyeong/Playground/exercism/scala/hello-world' .[0m
+2022.08.12 15:41:59 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.08.12 15:41:59 INFO  time: initialize in 0.56s[0m
+2022.08.12 15:41:59 ERROR Unexpected error initializing serverjava.lang.IllegalStateException: Not a JSON Object: null
+	at com.google.gson.JsonElement.getAsJsonObject(JsonElement.java:91)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$syncUserconfiguration$6(MetalsLanguageServer.scala:2664)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2022.08.12 15:42:04 INFO  shutting down Metals[0m
+2022.08.12 15:42:44 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/nyeong/Playground/exercism/scala/hello-world/.metals/lsp.trace.json or /Users/nyeong/Library/Caches/org.scalameta.metals/lsp.trace.json[0m
+2022.08.12 15:42:44 INFO  logging to file /Users/nyeong/Playground/exercism/scala/hello-world/.metals/metals.log[0m
+2022.08.12 15:42:44 INFO  Started: Metals version 0.11.8 in workspace '/Users/nyeong/Playground/exercism/scala/hello-world' .[0m
+2022.08.12 15:42:44 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.08.12 15:42:45 INFO  time: initialize in 0.73s[0m
+2022.08.12 15:42:44 ERROR Unexpected error initializing serverjava.lang.IllegalStateException: Not a JSON Object: null
+	at com.google.gson.JsonElement.getAsJsonObject(JsonElement.java:91)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$syncUserconfiguration$6(MetalsLanguageServer.scala:2664)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2022.08.12 15:42:49 INFO  no build target found for /Users/nyeong/Playground/exercism/scala/hello-world/src/main/scala/HelloWorld.scala. Using presentation compiler with project's scala-library version: 3.1.3[0m
+2022.08.12 15:42:49 WARN  no build target for: /Users/nyeong/Playground/exercism/scala/hello-world/src/main/scala/HelloWorld.scala[0m
+2022.08.12 15:42:49 INFO  shutting down Metals[0m
+2022.08.12 15:43:02 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/nyeong/Playground/exercism/scala/hello-world/.metals/lsp.trace.json or /Users/nyeong/Library/Caches/org.scalameta.metals/lsp.trace.json[0m
+2022.08.12 15:43:02 INFO  logging to file /Users/nyeong/Playground/exercism/scala/hello-world/.metals/metals.log[0m
+2022.08.12 15:43:02 INFO  Started: Metals version 0.11.8 in workspace '/Users/nyeong/Playground/exercism/scala/hello-world' .[0m
+2022.08.12 15:43:02 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.08.12 15:43:02 INFO  time: initialize in 0.65s[0m
+2022.08.12 15:43:02 INFO  shutting down Metals[0m
+2022.08.12 15:43:36 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/nyeong/Playground/exercism/scala/hello-world/.metals/lsp.trace.json or /Users/nyeong/Library/Caches/org.scalameta.metals/lsp.trace.json[0m
+2022.08.12 15:43:37 INFO  logging to file /Users/nyeong/Playground/exercism/scala/hello-world/.metals/metals.log[0m
+2022.08.12 15:43:37 INFO  Started: Metals version 0.11.8 in workspace '/Users/nyeong/Playground/exercism/scala/hello-world' .[0m
+2022.08.12 15:43:37 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.08.12 15:43:37 INFO  time: initialize in 0.74s[0m
+2022.08.12 15:43:37 ERROR Unexpected error initializing serverjava.lang.IllegalStateException: Not a JSON Object: null
+	at com.google.gson.JsonElement.getAsJsonObject(JsonElement.java:91)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$syncUserconfiguration$6(MetalsLanguageServer.scala:2664)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2022.08.12 15:43:40 WARN  no build target for: /Users/nyeong/Playground/exercism/scala/hello-world/src/main/scala/HelloWorld.scala[0m
+2022.08.12 15:43:42 INFO  no build target found for /Users/nyeong/Playground/exercism/scala/hello-world/src/main/scala/HelloWorld.scala. Using presentation compiler with project's scala-library version: 3.1.3[0m
+2022.08.12 15:50:42 WARN  no build target for: /Users/nyeong/Playground/exercism/scala/hello-world/src/main/scala/HelloWorld.scala[0m
+2022.08.12 15:50:45 WARN  no build target for: /Users/nyeong/Playground/exercism/scala/hello-world/src/main/scala/HelloWorld.scala[0m
+2022.08.12 15:50:59 INFO  shutting down Metals[0m

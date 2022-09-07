@@ -1,0 +1,2 @@
+2022.08.12 15:41:13 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/nyeong/Playground/exercism/scala/hello-world/src/test/scala/.metals/lsp.trace.json or /Users/nyeong/Library/Caches/org.scalameta.metals/lsp.trace.json[0m
+2022.08.12 15:41:14 INFO  logging to file /Users/nyeong/Playground/exercism/scala/hello-world/.metals/metals.log[0m

@@ -1,27 +1,29 @@
 defmodule KitchenCalculator do
-  @unit_table %{
-      milliliter: 1,
-      cup: 240,
-      fluid_ounce: 30,
-      teaspoon: 5,
-      tablespoon: 15,
-    }
+  @type unit :: :millimiter | :cup | :fluid_ounce | :teaspoon | :tablespoon
+  @type ml :: {:millimiter, float()}
+  @type cup :: {:cup, float()}
+  @type fluid_ounce :: {:fluid_ounce, float()}
+  @type teaspoon :: {:teaspoon, float()}
+  @type tablespoon :: {:tablespoon, float()}
 
-  @doc """
-      KitchenCalculator.get_volume({:cup, 2.0})
-      # => 2.0
-  """
-  def get_volume({_, num}), do: num
+  def get_volume({_, volume}), do: volume
 
-  def to_milliliter({measure, num}) when is_map_key(@unit_table) do
-    {:milliliter, num * Map.get(measure)}
-  end
+  @spec to_milliliter(ml | cup | fluid_ounce | teaspoon | tablespoon) :: ml
+  def to_milliliter({:milliliter, content}), do: {:milliliter, content}
+  def to_milliliter({:cup, content}), do: {:milliliter, content * 240}
+  def to_milliliter({:fluid_ounce, content}), do: {:milliliter, content * 30}
+  def to_milliliter({:teaspoon, content}), do: {:milliliter, content * 5}
+  def to_milliliter({:tablespoon, content}), do: {:milliliter, content * 15}
 
-  def from_milliliter(volume_pair, unit) do
-    # Please implement the from_milliliter/2 functions
-  end
+  @spec from_milliliter(ml, unit) :: ml | cup | fluid_ounce | teaspoon | tablespoon
+  def from_milliliter({:milliliter, content}, :milliliter), do: {:milliliter, content}
+  def from_milliliter({:milliliter, content}, :cup), do: {:cup, content / 240.0}
+  def from_milliliter({:milliliter, content}, :fluid_ounce), do: {:fluid_ounce, content / 30.0}
+  def from_milliliter({:milliliter, content}, :teaspoon), do: {:teaspoon, content / 5.0}
+  def from_milliliter({:milliliter, content}, :tablespoon), do: {:tablespoon, content / 15.0}
 
+  @spec convert(ml | cup | fluid_ounce | teaspoon | tablespoon, unit) :: ml | cup | fluid_ounce | teaspoon | tablespoon
   def convert(volume_pair, unit) do
-    # Please implement the convert/2 function
+    volume_pair |> to_milliliter() |> from_milliliter(unit)
   end
 end
