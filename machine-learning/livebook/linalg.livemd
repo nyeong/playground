@@ -1,0 +1,80 @@
+# LinAlg
+
+```elixir
+Mix.install([
+  {:nx, "~> 0.4"},
+  {:kino, "~> 0.8"},
+  {:vega_lite, "~> 0.1.6"},
+  {:kino_vega_lite, "~> 0.1.7"}
+])
+```
+
+## Section
+
+```elixir
+import Nx
+```
+
+```elixir
+defmodule LinAlg do
+  import Nx.Defn
+  alias Nx.LinAlg
+
+  defn angle(x, y) do
+    v = Nx.dot(x, y) / (LinAlg.norm(x) * LinAlg.norm(y))
+    Nx.acos(v)
+  end
+end
+```
+
+```elixir
+a = Nx.tensor([0, 1])
+b = Nx.tensor([0, 2])
+LinAlg.angle(a, b)
+```
+
+```elixir
+data = [
+  %{id: 1, name: "Elixir", website: "https://elixir-lang.org"},
+  %{id: 2, name: "Erlang", website: "https://www.erlang.org"}
+]
+
+Kino.DataTable.new(data)
+```
+
+```elixir
+frame = Kino.Frame.new() |> Kino.render()
+
+for i <- 1..100 do
+  Kino.Frame.render(frame, i)
+  Process.sleep(50)
+end
+```
+
+```elixir
+alias VegaLite, as: Vl
+```
+
+```elixir
+Vl.new()
+|> Vl.data_from_values(iteration: 1..100, score: 1..100)
+|> Vl.mark(:line)
+|> Vl.encode_field(:x, "iteration", type: :quantitative)
+|> Vl.encode_field(:y, "score", type: :quantitative)
+```
+
+```elixir
+chart =
+  Vl.new(width: 400, height: 400)
+  |> Vl.mark(:line)
+  |> Vl.encode_field(:x, "x", type: :quantitative)
+  |> Vl.encode_field(:y, "y", type: :quantitative)
+  |> Kino.VegaLite.new()
+  |> Kino.render()
+
+for i <- 1..300 do
+  point = %{x: i / 10, y: :math.sin(i / 10)}
+  Kino.VegaLite.push(chart, point)
+  Process.sleep(25)
+end
+```
