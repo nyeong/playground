@@ -5,6 +5,7 @@
 1차 목표: 아래 다 풀기
 
 - [코딩테스트 고득점 Kit](https://school.programmers.co.kr/learn/challenges?tab=algorithm_practice_kit)
+- [SQL 고득점 Kit](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit)
 
 디렉토리 이름이 문제 번호입니다.
 
